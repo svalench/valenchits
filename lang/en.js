@@ -1,0 +1,21 @@
+export default {
+  about: 'About me',
+  careara: 'Career',
+  tech_skills: 'Technologies',
+  portfolio: 'Projects',
+  sign_up: 'Sign Up',
+  sign_in: 'Sign In',
+  cancel: 'Cancel',
+  masters: 'Masters',
+  Gallery: 'Gallery',
+  orders: 'Suggestions',
+  Authorization: 'Authorization',
+  say_yes_and_sign_in: 'agree and join',
+  loading: 'Loading',
+  search: 'search',
+  fail: 'Failure',
+  not_save: 'Not saved',
+  success: 'Success',
+  save_success: 'Saved successfully',
+
+}

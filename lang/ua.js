@@ -1,0 +1,21 @@
+export default {
+  about: 'Про себе',
+  careara: "Кар'єра",
+  tech_skills: 'Технології',
+  portfolio: 'Проекти',
+  sign_up: 'Приєднатися',
+  sign_in: 'Увійти',
+  cancel: 'Отмена',
+  masters: 'Майстри',
+  Gallery: 'Галерея',
+  orders: 'Пропозиції',
+  Authorization: 'Авторизація',
+  say_yes_and_sign_in: 'погодитися і приєднатися',
+  loading: 'Завантаження',
+  search: 'пошук',
+  fail: 'Провал',
+  not_save: 'Чи не збережено',
+  success: 'Успіх',
+  save_success: 'збережено успішно',
+
+}
