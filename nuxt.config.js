@@ -1,4 +1,6 @@
 export default {
+  "host": "127.0.0.1",
+  "port": "3003",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'valenchits-front',
