@@ -3,6 +3,8 @@ export default {
   careara: 'Career',
   tech_skills: 'Technologies',
   portfolio: 'Projects',
+  choice_lang: 'Select a language',
+  more: 'more',
   sign_up: 'Sign Up',
   sign_in: 'Sign In',
   cancel: 'Cancel',

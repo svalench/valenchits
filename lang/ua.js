@@ -3,6 +3,8 @@ export default {
   careara: "Кар'єра",
   tech_skills: 'Технології',
   portfolio: 'Проекти',
+  choice_lang: 'Виберіть мову',
+  more: 'докладніше',
   sign_up: 'Приєднатися',
   sign_in: 'Увійти',
   cancel: 'Отмена',
