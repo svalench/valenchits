@@ -1,7 +1,7 @@
 <template>
 <div class="index-page">
   <div class="hello">
-<b-embed  id="about"
+<b-embed
     type="video"
     aspect="16by9"
     allowfullscreen
@@ -23,15 +23,17 @@
 <!--    </b-button>-->
   </div></div>
   </div>
+  <about-me id="about"></about-me>
   <careara id="careara"></careara>
 </div>
 </template>
 
 <script>
 import Careara from "../components/index/careara";
+import AboutMe from "../components/index/aboutMe";
 export default {
   name: 'IndexPage',
-  components: {Careara},
+  components: {AboutMe, Careara},
 }
 </script>
 <style>
@@ -54,10 +56,5 @@ export default {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-}
-.content-text{
-  margin-top: 13%;
-  font-weight: 650;
-  font-size: 30px;
 }
 </style>
