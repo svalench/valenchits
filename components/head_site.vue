@@ -5,8 +5,8 @@
     <span class="text-icon-head">Valenchits</span>
   </b-col>
   <b-col cols="1"></b-col>
-  <b-col class="align-middle add_undeline " >{{$t('about')}}</b-col>
-   <b-col class="align-middle add_undeline">{{$t('careara')}}</b-col>
+  <b-col class="align-middle add_undeline " ><a href="/#about" class="link-menu">{{$t('about')}}</a></b-col>
+   <b-col class="align-middle add_undeline"><a href="/#careara"  class="link-menu">{{$t('careara')}}</a></b-col>
    <b-col class="align-middle add_undeline">{{$t('portfolio')}}</b-col>
    <b-col class="align-middle add_undeline">{{$t('tech_skills')}}</b-col>
    <b-col class="align-middle">
@@ -101,5 +101,9 @@ export default {
 a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #f1f1f1;
+}
+.link-menu{
+  width: 100%;
+  display: block;
 }
 </style>

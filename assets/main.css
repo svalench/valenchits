@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.5s;

@@ -1,7 +1,7 @@
 <template>
 <div class="index-page">
   <div class="hello">
-<b-embed
+<b-embed  id="about"
     type="video"
     aspect="16by9"
     allowfullscreen
@@ -11,7 +11,9 @@
   <source  :src="require('~/assets/video/neiro.mp4')" type="video/mp4">
 </b-embed>
   <div class="content "><div class="content-text align-middle">
-    Python WEB Developer <br>
+    Python Developer <br>
+    WEB Developer <br>
+    Automation System Engineer <br>
     Valenchits Aleksander <br>
     <b-button> {{$t('more')}}
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-square" viewBox="0 0 19 19">
@@ -21,13 +23,15 @@
     </b-button>
   </div></div>
   </div>
+  <careara id="careara"></careara>
 </div>
 </template>
 
 <script>
+import Careara from "../components/index/careara";
 export default {
   name: 'IndexPage',
-
+  components: {Careara},
 }
 </script>
 <style>
@@ -52,7 +56,7 @@ export default {
   padding: 20px;
 }
 .content-text{
-  margin-top: 18%;
+  margin-top: 13%;
   font-weight: 650;
   font-size: 30px;
 }
