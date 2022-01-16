@@ -19,5 +19,12 @@ export default {
   not_save: 'Чи не збережено',
   success: 'Успіх',
   save_success: 'збережено успішно',
+  aboutMe: {
+    p: "Python розробник",
+    w: "Web розробник",
+    a: "Інженер з автоматизації",
+    first_name: "Олександр",
+    last_name: "Валенчиц",
+  }
 
 }

@@ -39,7 +39,9 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-      '@nuxtjs/i18n',
+    '@nuxtjs/i18n',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
 
   axios: {
@@ -73,5 +75,16 @@ export default {
     cookieKey: 'i18n_redirected',
     redirectOn: 'root',
   },
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
+  },
+  sitemap: {
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
   },
 }
