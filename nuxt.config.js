@@ -82,6 +82,7 @@ export default {
     Disallow: '/'
   },
   sitemap: {
+    hostname: 'valenchits.com',
     defaults: {
       changefreq: 'daily',
       priority: 1,
