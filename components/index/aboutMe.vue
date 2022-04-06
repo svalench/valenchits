@@ -2,7 +2,7 @@
 <div class="container-fluid p-5">
   <b-row>
     <b-col cols="4">
-      <b-img fluid  :src="require('~/assets/img/my.png')"></b-img>
+      <b-img fluid class="myimg" :src="require('~/assets/img/my.png')"></b-img>
     </b-col>
     <b-col class="about-me-text">
      <p>Приветствую на своей маленькой странице в сети.</p>
@@ -26,6 +26,16 @@ export default {
 <style scoped>
 .about-me-text{
   color: #f1f1f1;
+    text-decoration: none;
+    padding: 40px 0 0 40px;
+    font-size: 17px;
+    line-height: 1.8;
   text-decoration: none;
+}
+.myimg{
+  max-width: 100%;
+    height: auto;
+    object-fit: none;
+    border-radius: 16px;
 }
 </style>

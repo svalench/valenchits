@@ -25,15 +25,17 @@
   </div>
   <about-me id="about"></about-me>
   <careara id="careara"></careara>
+  <technologies id="tech"></technologies>
 </div>
 </template>
 
 <script>
 import Careara from "../components/index/careara";
 import AboutMe from "../components/index/aboutMe";
+import Technologies from "../components/index/technologies";
 export default {
   name: 'IndexPage',
-  components: {AboutMe, Careara},
+  components: {Technologies, AboutMe, Careara},
 }
 </script>
 <style>
