@@ -5,10 +5,10 @@
     <span class="text-icon-head">Valenchits</span>
   </b-col>
   <b-col cols="1"></b-col>
-  <b-col class="align-middle add_undeline " ><a href="#about" class="link-menu">{{$t('about')}}</a></b-col>
-   <b-col class="align-middle add_undeline"><a href="#careara"  class="link-menu">{{$t('careara')}}</a></b-col>
+  <b-col class="align-middle add_undeline " ><a href="#about" @click="clear_tag" class="link-menu">{{$t('about')}}</a></b-col>
+   <b-col class="align-middle add_undeline"><a href="#careara" @click="clear_tag"  class="link-menu">{{$t('careara')}}</a></b-col>
 <!--   <b-col class="align-middle add_undeline">{{$t('portfolio')}}</b-col>-->
-  <b-col class="align-middle add_undeline"><a href="#tech"  class="link-menu">{{$t('tech_skills')}}</a></b-col>
+  <b-col class="align-middle add_undeline"><a href="#tech" @click="clear_tag"  class="link-menu">{{$t('tech_skills')}}</a></b-col>
    <b-col class="align-middle">
      <b-dropdown  split-variant="outline" class="lang-switch" right size="sm" :text.sync="currLang.name">
        <b-dropdown-header id="dropdown-header-label">
@@ -35,10 +35,15 @@ export default {
     currLang(){
       return this.$i18n.locales.find(i => i.code === this.$i18n.locale)
     },
-  availableLocales () {
-    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-  }
-},
+    availableLocales () {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+    }
+  },
+  methods:{
+    clear_tag(){
+
+    }
+  },
 }
 </script>
 
