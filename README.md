@@ -1,5 +1,7 @@
 # valenchits-front
 
+Проект моего веб CV. Смотреть его можно тут [мое CV](https://valenchits.com)
+
 ## Build Setup
 
 ```bash
